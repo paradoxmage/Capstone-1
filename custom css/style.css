@@ -1,0 +1,37 @@
+/* fonts 
+font-family: 'Indie Flower', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Oxygen', sans-serif;
+*/
+
+body {
+    background-image: url(./imageedit_1_7093453622.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+
+
+.rie-navi {
+    color: #1e9de3;
+    background-color:  #FFF8DE;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.rie-navi:hover {
+    color: rosybrown;
+}
+
+section h1{
+    color: #1e9de3;
+    font-family: 'Arima Madurai', cursive;;
+    background: linear-gradient(90deg,#05254e 0,rgba(5,37,78,0));
+    text-align: center;
+} 
+
+
+section h1:hover {
+    color: #FFF8DE;
+}

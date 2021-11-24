@@ -1,0 +1,112 @@
+/* body {
+    background-image: url(./imageedit_1_7093453622.png);
+    background-repeat: no-repeat ;
+    background-color: black;
+} */
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+.container-fluid {
+    border-bottom: 2px solid white;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rie-navi{
+    /* background-color:  #FFF8DE; */
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.navbar .container-fluid a {
+    font-weight: 600;
+    color: white;
+}
+
+.navbar .container-fluid a:hover {
+    color: #FFF3C9;
+}
+.navbar .navbar-nav .custom-rie-link {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.navbar .navbar-nav .custom-rie-link:hover{
+    color: #FFF3C9;
+}
+
+
+
+/* .navbar .container-fluid .nav-bar-toggler .navbar-toggler-icon span{
+    color: white;
+} */
+
+section {
+    height: 100vh;
+}
+
+.carousel  {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 180px;
+
+
+}
+.carousel-caption h1{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    font-size: 120px;
+}
+
+.carousel-caption h2{
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+#about-me {
+   background: 	rgb(210, 234, 228);
+   background-image: url(./imageedit_1_7093453622.png);
+   background-repeat: no-repeat;
+}
+
+#projects {
+    background:	rgb(210, 234, 228);
+    background-image: url(./imageedit_1_7093453622.png);
+    background-repeat: no-repeat;
+}
+
+
+#contact {
+    background: rgb(210, 234, 228);
+    background-image: url(./imageedit_1_7093453622.png);
+    background-repeat: no-repeat;
+}
+
+
+/* rgb(234, 209, 209); */
