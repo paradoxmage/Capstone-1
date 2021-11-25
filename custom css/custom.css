@@ -26,20 +26,36 @@ header {
 
 .navbar .container-fluid a {
     font-weight: 600;
-    color: white;
+    /* color: white; */
+    color: #fff;
+    font-size: 23px;
+    
+}
+
+.navbar.scrolled .container-fluid a {
+    color: #4f5964;
+   
+}
+
+.navbar.scrolled {
+    background-color: white;
+    box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
+    -webkit-box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
 }
 
 .navbar .container-fluid a:hover {
-    color: #FFF3C9;
+    color: rosybrown;
 }
 .navbar .navbar-nav .custom-rie-link {
-    color: white;
+    /* color: white; */
+    color: #fff;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
 }
 
 .navbar .navbar-nav .custom-rie-link:hover{
-    color: #FFF3C9;
+    color: rosybrown;
 }
 
 
@@ -50,6 +66,7 @@ header {
 
 section {
     height: 100vh;
+    overflow: hidden;
 }
 
 .carousel  {
@@ -90,23 +107,283 @@ section {
     font-weight: 600;
 }
 #about-me {
-   background: 	rgb(210, 234, 228);
+   background: #FFFDF2;
    background-image: url(./imageedit_1_7093453622.png);
+   border-top: 7px dotted #ead1dc; 
    background-repeat: no-repeat;
 }
 
-#projects {
-    background:	rgb(210, 234, 228);
-    background-image: url(./imageedit_1_7093453622.png);
-    background-repeat: no-repeat;
+#about-me .container {
+    display: flex;
+    
 }
+
+#about-me h2 {
+    text-align: left;
+    margin-top: 10%;
+    font-weight: 600;
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    color: #4f5964;
+}
+
+#about-me img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+#about-me .custom-rie-knowme {
+    background: rgb(255,253,242);
+    background: linear-gradient(90deg, rgba(255,253,242,0.3477766106442577) 46%, rgba(234,209,220,0.40379901960784315) 82%);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Indie Flower', cursive;
+    color: #4f5964;
+    height : 500px;
+    width: 400px;
+}
+
+#about-me img{
+    border-radius: 30px;
+}
+
+#about-me h4 {
+    font-weight: 600;
+    text-align: center;
+    padding: 15px;
+
+}
+
+#about-me p  {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.custom-rie-carousel {
+    height : 500px;
+    width: 400px;
+}
+
+
+#projects {
+    background:	#FFFDF2;
+    background-image: url(./imageedit_1_7093453622.png);
+    border-top: 7px dotted #ead1dc;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#projects .card {
+    border-radius: 15px;
+    border: 2px dotted rosybrown;
+    padding: 10px;
+    background: rgb(255,253,242);
+    background: linear-gradient(90deg, rgba(255,253,242,0.6110819327731092) 41%, rgba(234,209,220,0.40379901960784315) 65%);
+}
+
+#projects img {
+    width: 150px;
+  
+}
+#projects h2 {
+    font-family: 'Indie Flower', cursive;
+    color: #4f5964;
+    font-weight: 600;
+}
+
+#projects h4 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+
+
+/* #projects.card {
+ overflow:hidden;
+ border-radius:20px;
+ min-height:450px;
+} */
 
 
 #contact {
-    background: rgb(210, 234, 228);
-    background-image: url(./imageedit_1_7093453622.png);
+    background: #FFFDF2;
+    background-image: url(./2.jpg);
+    border-top: 7px dotted #ead1dc;
     background-repeat: no-repeat;
 }
 
 
-/* rgb(234, 209, 209); */
+#contact h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color:    #4f5964;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+#contact h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color:    #4f5964;
+    font-size: 50px;
+    text-align: center;
+}
+
+#contact form h3 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color:    #4f5964;
+    text-align: center;
+}
+#contact form {
+    max-width: 450px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 600;
+    color:    #4f5964;
+    font-size: 17.5px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px dotted rosybrown;
+    padding: 20px;
+    background: rgb(255,253,242);
+    background: linear-gradient(90deg, rgba(255,253,242,0.3477766106442577) 46%, rgba(234,209,220,0.40379901960784315) 82%);
+}
+
+#contact legend {
+    color:    #4f5964;
+    border-top: 3px solid #FFD2D2;
+	border-left: 3px solid #FFD2D2;
+	border-right: 3px solid #FFD2D2;
+	border-radius: 5px 5px 0px 0px;
+    padding: 10px;
+	
+
+}
+
+#exampleInputtext1 , #exampleInputEmail1 , #exampleInputNumber1 {
+    border-radius: 5px;
+    border: 1px solid rosybrown;
+}
+#exampleInputTextarea1 {
+    border: 1px solid rosybrown;
+    height: 100px;
+}
+
+
+    
+ #contact form button {
+    background-image: linear-gradient(to right, #DAE2F8 0%, #D6A4A4  51%, #DAE2F8  100%);
+
+    
+}
+    
+ #contact form button {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #4f5964;    
+    font-weight: 600;      
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+ #contact form button:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #4f5964;
+    text-decoration: none;
+}
+    
+
+
+
+footer {
+    background-color: white;
+    box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
+    -webkit-box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
+    -moz-box-shadow: -1px 11px 44px -35px rgba(0,0,0,0.69);
+    padding: 5px;
+    text-align: center;
+    color:    #4f5964;
+}
+
+
+footer h1 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+}
+
+footer h1:hover {
+    color: rosybrown;
+}
+footer ul {
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    font-weight: 600;
+   
+}
+
+footer li {
+    display: inline;
+    padding: 10px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #4f5964;
+}
+
+footer a:hover{
+    color: rosybrown;
+    
+}
+
+footer i {
+    color: rosybrown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ; */
