@@ -206,8 +206,8 @@ header {
 
 #projects .card {
     align-items: center;
-   max-width: 380px;
-   margin: 0 auto;
+    /* max-width: 500px; */
+    margin: 0 auto;
     border-radius: 15px;
     border: 2px dotted rosybrown;
     padding: 20px;
