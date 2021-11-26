@@ -10,6 +10,7 @@ header {
     left: 0px;
     z-index: 10;
     width: 100%;
+    
 }
 
 .container-fluid {
@@ -178,7 +179,7 @@ header {
     margin: 0 auto;
     display: block;
     border-radius: 30px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .custom-rie-carousel .carousel-item img {
@@ -230,17 +231,15 @@ header {
 #projects h4 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+    color: #4f5964;
 }
 
 #projects button {
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    color:bisque;
 }
 .unlocked{
     background-image: linear-gradient(to right, #DAE2F8 0%, #D6A4A4  51%, #DAE2F8  100%);
-    
-    
 }
     
  .unlocked {
