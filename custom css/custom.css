@@ -256,13 +256,22 @@ header {
     display: block;
 }
 
+.unlocked a{
+    font-weight: 600;
+    color: #4f5964;
+}
+
 .unlocked:hover{
     background-position: right center; 
     color: white;
     text-decoration: none;
 }
 
-.locked {background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)}
+.locked {
+    background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%);
+    color: white;
+   
+}
 .locked{
    margin: 10px;
    padding: 10px 20px;
@@ -281,6 +290,11 @@ header {
    color: #fff;
    text-decoration: none;
  }
+
+  .locked a {
+    color: white;
+ }
+
 
     
 #projects .projects-border img {
